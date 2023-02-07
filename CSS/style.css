@@ -53,3 +53,71 @@ body{
 .nav-a:hover{
     text-shadow: 0 0 1px rgb(157, 158, 156);
 }
+
+footer{
+    background-color: #c2c2d6; 
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.left-side{
+    margin-right: 50px;
+}
+.right-side{
+    margin-left: 50px;
+}
+.leftside-li{
+    font-size: 20px;
+    display: block;
+    list-style: none;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftside-a{
+    color: black;
+    text-decoration: none;
+}
+.rightside-a{
+    color: black;
+    text-decoration: none;
+}
+.rightside-li{
+    font-size: 20px;
+    display: block;
+    list-style: none;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftside-a:hover{
+    color: rgb(255, 242, 240);
+    transition: 0.05s;
+}
+
+.rightside-a:hover{
+    color: rgb(255, 242, 240);
+    transition: 0.05s;
+}
+
+.social-link{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.social-link-img{
+    margin-left:50px ;
+    margin-right: 50px;
+    background-color: white;
+    border-radius: 100px;
+    box-shadow: 0 0 10px 0 #9c9c9c;
+}
