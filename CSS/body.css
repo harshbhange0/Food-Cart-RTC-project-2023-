@@ -37,3 +37,48 @@
     text-decoration: none;
     color: #000;
   }
+
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  .alcenter{
+    justify-content: center;
+  }
+
+  .card-container{
+    padding: 10px;
+    border-radius: 10px ;
+    box-shadow: 0 0 10px 3px rgba(128, 128, 128, 0.301);
+    margin: 10px;
+  }
+
+  .card-img{
+    width: 300px;
+  }
+  .card-footer{
+    text-align: center;
+  }
+
+  .card-buttom{
+    border: 0 ;
+    background-color: white;
+    
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .card-buttom:hover{
+    box-shadow: 0 0 10px 0 rgba(128, 128, 128, 0.301);
+  }
+
+  .tomato-container-footer{
+    margin-top: 90px;
+  }
+  .capsicum-container-footer{
+    margin-top: 110px;
+  }
