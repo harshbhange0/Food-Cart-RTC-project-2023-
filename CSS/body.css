@@ -58,6 +58,10 @@ body{
     .navbar-brand-name{
         font-size: 20px;
     }
+    .nav{
+        justify-content: center;
+    }
+
 }
 @media screen and (min-width: 600px) and (max-width: 800px){
     .nav{
