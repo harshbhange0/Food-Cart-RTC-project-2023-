@@ -53,16 +53,16 @@ body{
 .catagory-links{
     text-align: center;
     margin: 50px;
-    
+    padding-bottom: 2px;
 }
 .catagory-a-link{
     text-decoration: none;
     color: #000000;
-    padding-bottom: 3px;
+    
 }
 .catagory-links:hover{
-    border-bottom: 1px green solid;
-    transition: 1s;
+    border-bottom: 1px rgb(1, 255, 1) solid;
+    transition: .30s;
 }
 
 @media screen and (max-width: 599px){
