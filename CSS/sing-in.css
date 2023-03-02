@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+body{
+    margin: 0;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    box-shadow: 0 0 10px 0 #cac8c8;
+    border-radius: 10px;
+    padding: 20px;
+}
+.left-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 325px;
+}
+.right-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 325px;
+}
+.input{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.name, .email, .password, .user-name, .age{
+    outline: none;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+.sub-btn{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5PX;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    color: black;
+}
+.container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.google-link-img{
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 3px;
+}
+.link{
+    display: block;
+    width: 100%;
+    align-items: center;
+    text-decoration: none;
+}

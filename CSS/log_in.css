@@ -46,3 +46,13 @@ form{
 .singinlink{
     text-decoration: none;
 }
+.sub-btn{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5PX;
+    background-color: #f5f5f5;
+    text-decoration: none;
+    color: black;
+}
