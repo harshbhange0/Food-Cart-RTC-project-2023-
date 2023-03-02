@@ -61,9 +61,10 @@ body{
     
 }
 .catagory-links:hover{
-    border-bottom: 1px rgb(1, 255, 1) solid;
+    color: #05ff05;
     transition: .30s;
 }
+
 
 @media screen and (max-width: 599px){
     .li-links{
@@ -88,13 +89,17 @@ body{
 
     .catagory{
         flex-wrap: wrap;
-        margin: 1px;
+       
     }
     .catagory-a-link{
         font-size: 10px;
     }
     .catagory-links{
-        margin: 10px;
+        margin: 2px;
+        padding-right: 5px;
+        padding-left: 5px;
+        border-right:1px solid ;
+        border-left:1px solid ;
     }
 
 }
