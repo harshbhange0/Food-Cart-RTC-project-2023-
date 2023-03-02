@@ -88,7 +88,7 @@ body{
 
     .catagory{
         flex-wrap: wrap;
-        margin: 5px;
+        margin: 1px;
     }
     .catagory-a-link{
         font-size: 10px;
