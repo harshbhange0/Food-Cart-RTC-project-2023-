@@ -2,6 +2,7 @@
 body{
     margin: 0;
     font-family: 'Nanum Gothic Coding', monospace;
+    background-color: #F1F6F5;
 }
 .nav{
     padding-top: 10px;
@@ -60,7 +61,7 @@ body{
     color: #000000;
     
 }
-.home-img-container{
+.home-imgs-container{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -117,22 +118,22 @@ body{
         padding-right: 10px;
         padding-left: 10px;
         border-bottom: 0 ;
-        border-right:1px solid ;
         border-left:1px solid ;
     }
-    .home-img-container{
+    .home-imgs-container{
+        width: 100%;
+        padding: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 20px;
+        margin-bottom: 20px;
         flex-wrap: wrap;
+    }
+    .home-text{
+        font-size: 25px;
     }
 
 }
 @media screen and (min-width: 600px) and (max-width: 800px){
-    .nav{
-        width: 100%;
-    }
-    .a-links{
-        font-size: 15px;
-    }
-    .navbar-brand-name{
-        font-size: 20px;
-    }
+
 }
